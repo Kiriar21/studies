@@ -1,0 +1,6 @@
+CANON
+4
+makro 2.8 65
+teleobiektyw 2.8 400
+staloogniskowy 1.4 50
+specjalny 2.8 90
