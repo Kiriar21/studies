@@ -1,0 +1,310 @@
+
+maly_lotek_5
+Wylosowane liczby: 
+11 21 6 16 6 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+1 25 31 13 7 31 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+1 1 
+multitotek_10
+81 91 1 11 1 71 41 71 51 21 
+Ilosc trafionych liczb: 
+ 2
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+6 21 16 21 21 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 6 16 11 11 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+19 1 25 7 31 13 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+31 11 71 91 1 51 61 91 21 41 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+11 21 6 16 16 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+11 1 16 21 16 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+19 1 7 25 7 7 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+91 1 51 41 81 11 21 31 21 61 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+6 21 16 11 1 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 11 16 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+13 19 1 31 31 1 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+11 51 41 71 31 81 91 61 1 21 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+21 1 16 6 6 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 11 16 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+13 19 1 31 31 1 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+11 51 41 71 31 81 91 61 1 21 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+21 1 16 6 6 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+16 21 11 1 11 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+31 1 25 13 7 13 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+91 31 61 11 41 1 81 51 51 21 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 11 6 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+16 21 11 1 11 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+31 1 25 13 7 13 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+91 31 61 11 41 1 81 51 51 21 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 11 6 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+16 21 11 1 11 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+31 1 25 13 7 13 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+91 31 61 11 41 1 81 51 51 21 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 11 6 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+11 1 1 21 16 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+1 7 31 31 25 13 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+61 71 91 51 41 51 81 11 1 31 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 16 11 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+11 1 1 21 16 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+duzy_lotek_6
+Wylosowane liczby: 
+1 7 31 31 25 13 
+Ilosc trafionych liczb: 
+0
+Trafione liczby: 
+
+
+multitotek_10
+61 71 91 51 41 51 81 11 1 31 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
+
+maly_lotek_5
+Wylosowane liczby: 
+1 21 16 16 11 
+Ilosc trafionych liczb: 
+ 0
+Trafione liczby: 
+
