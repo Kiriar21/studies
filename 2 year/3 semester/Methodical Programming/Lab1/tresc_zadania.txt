@@ -1,0 +1,8 @@
+Zdefiniować strukturę Student opisaną polami imię, nazwisko, numer (numer indeksu). Następnie zaprojektować, zaimplementować
+oraz przetestować funkcje realizujące następujące operacje:
+
+    pobranie wartości struktur Student ze strumienia plikowego oraz umieszczenie ich w pamięci dynamicznej (tablica struktur),
+    wyświetlenie wartości jednego obiektu struktury Student na standardowym urządzeniu wyjściowym,
+    wyświetlenie wszystkich elementów tablicy (obiektów struktury Student) na standardowym urządzeniu wyjściowym,
+    edycję wybranego elementu tablicy,
+    zapis wszystkich elementów tablicy do strumienia plikowego.

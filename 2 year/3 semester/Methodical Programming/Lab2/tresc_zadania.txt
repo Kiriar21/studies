@@ -1,0 +1,12 @@
+Zaprojektować i zaimplementować klasy: punkt, prostokąt oraz graniastosłup, zakładając że:
+
+    punkt jest opisany trzema współrzędnymi (x,y,z) w prostokątnym układzie współrzędnych X-Y-Z,
+    prostokąt posiada szerokość a i wysokość b, leży w płaszczyźnie równoległej do płaszczyzny X-Y, a wierzchołki znajdujące się na przekątnej
+    mają współrzędne : (x, y, z) oraz (x+a, y+b, z),
+    graniastosłup posiada podstawę typu prostokąt i wysokość h.
+
+Wszystkie z tworzonych klas wyposażyć w zestaw konstruktorów pozwalających na definiowanie obiektów o zadanych wartościach początkowych
+oraz zestaw metod dostępowych pozwalających na modyfikowanie wartości przechowywanych przez pola składowe.
+
+Dodatkowo klasy prostokąt, oraz graniastosłup wyposażyć w metody pozwalające na obliczanie odpowiednio pola powierzchni oraz objętości
+poszczególnych obiektów.Do zweryfikowania poprawności działania zaimplementowanych klas wykorzystać załączony kod testujący. 
