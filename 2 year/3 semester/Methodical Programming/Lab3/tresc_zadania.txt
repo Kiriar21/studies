@@ -1,0 +1,6 @@
+Zaprojektować i zaimplementować klasy punkt i wielobok. Klasa punkt ma odwzorowywać punkt na płaszczyźnie. Klasa powinna posiadać
+zbiór konstruktorów umożliwiających właściwe inicjowanie pól składowych tworzonych obiektów. Winna ona być także wyposażona w metody dostępowe
+umożliwiające pobieranie i modyfikowanie wartości pól składowych. Klasa punkt powinna posiadać też metodę obliczającą odległość danego punktu od innego.
+
+Klasa wielobok powinna odwzorowywać wieloboczną figurę geometryczną na płaszczyźnie opisaną zbiorem punktów. Klasa powinna dostarczać konstruktor domyślny oraz konstruktor umożliwiający utworzenie zbioru punktów opisujących tę figurę. Ponadto klasa powinna dostarczać metody dostępowe dające
+możliwość odczytu ilości punktów oraz odczytu i zapisu współrzędnych poszczególnych punktów. Klasa wielobok powinna także posiadać metodę zmiany zbioru punktów na nowy oraz metodę obliczania obwodu tej figury
