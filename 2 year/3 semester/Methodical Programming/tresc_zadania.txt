@@ -1,0 +1,6 @@
+Zaprojektować i zaimplementować klasę osoba opisaną imieniem, nazwiskiem, wiekiem i
+adresem. Składowa adres powinna być dynamicznym obiektem typu adres. Klasa adres powinna
+zawierać składowe miasto, kod pocztowy, ulicę oraz numer budynku. Obie klasy powinny być
+wyposażone w konstruktor domyślny, konstruktor pozwalający zainicjować wszystkie pola składowe
+oraz operator wstawiania do strumienia. Jedna z tych klas powinna mieć także zdefiniowany
+konstruktor kopiujący, operator przypisania oraz destruktor.
