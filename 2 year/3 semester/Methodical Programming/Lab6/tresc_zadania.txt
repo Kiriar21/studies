@@ -1,0 +1,25 @@
+Zaprojektować i zaimplementować program do obliczania długości obwodu i pola powierzchni
+dowolnego wielokąta przedstawionego w przestrzeni dwuwymiarowej. Opis geometrii wielokąta należy
+pobrać ze strumienia plikowego zapisanego według następującego formatu:
+
+[NUMBER OF NODES] 
+n 
+[NODES] 
+k1 x1 y1 
+k2 x2 y2 
+... ... ... 
+... ... ... 
+kn xn yn 
+[POLYGON] 
+k1 k2 ...... kn 
+
+gdzie:
+n - liczba węzłów wielokąta,
+ki - numer węzła,
+xi, yi - współrzędne węzła w układzie kartezjańskim;
+
+Kolejność węzłów w sekcji [NODES] jest dowolna.
+W sekcji [POLYGON] zgodna z przyjętym kierunkiem obiegu węzłów w wielokącie.
+Nazwy sekcji mogą być zapisane małymi literami.
+W trakcie obliczeń pola powierzchni skorzystać z równania:
+P‎=‎12∑ni=1(xiyi+1−xi+1yi)
