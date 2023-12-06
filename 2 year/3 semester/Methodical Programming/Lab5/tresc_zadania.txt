@@ -1,0 +1,9 @@
+Zaprojektować, zaimplementować oraz przetestować klasę opisującą punkt w przestrzeni trójwymiarowej.
+Klasa powinna dostarczać następującą funkcjonalność:
+
+    indeksowany dostęp do współrzędnej punktu,
+    wyznaczanie odległości między dwoma punktami,
+    dodawanie/odejmowanie dwóch punktów - realizowane jako suma/róŜnica odpowiadających sobie współrzędnych punktów,
+    symetryczny iloczyn punktu z liczbą zmiennoprzecinkową - realizowany jako iloczyn współrzędnych punktu i liczby,
+    porównanie dwóch punktów na równość i mniejszość; punkty są sobie równe jeśli ich odległość od początku układu współrzędnych jest taka sama (z dokładnością 10-10); punkt jest mniejszy od innego jeżeli leży bliżej początku układu współrzędnych,
+    dostęp do strumienia (wejściowego i wyjściowego).
