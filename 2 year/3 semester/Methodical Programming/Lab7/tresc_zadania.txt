@@ -1,0 +1,24 @@
+Zaimplementuj i przetestuj działanie klasy Osoba oraz BazaDanych.
+
+Klasa Osoba powinna będzie przechowywać dane osobowe. Powinna zawierać następujące elementy:
+
+    konstruktor domyslny,
+    konstruktor parametryczny,
+    pola: imie, nazwisko oraz PESEL,
+    metody dostępowe,
+    operatory << oraz >>,
+    operator ==.
+
+Klasa BazaDanych powinna zawierać tablicę obiektów typu Osoba w pamięci dynamicznej przechowującą dane osobowe. Ponad to w klasie zdefiniować następujące elementy:
+
+    konstruktor domyślny,
+    konstruktor kopiujący,
+    operator przypisania kupującego =,
+    destruktor,
+    operator indeksowania [] pozwalający na dostęp do tablicy osób,
+    operator <<,
+    operator + dodaje nową osobę do bazy danych,
+    operator - usuwający dane osoby z bazy danych,
+    operator + pozwalający na połączenie dwóch baz danych.
+
+Działanie klas przetestować dostarczonym kodem testującym.
