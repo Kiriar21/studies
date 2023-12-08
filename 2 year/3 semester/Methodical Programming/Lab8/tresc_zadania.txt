@@ -1,0 +1,5 @@
+Zaprojektować i zaimplementować klasę bazową osoba oraz dziedziczącą po niej klasę pracownik.
+Klasa osoba powinna zawierać pola nazwisko i liczba lat, natomiast klasa pracownik pola
+stanowisko i płaca. W obu klasach zdefiniować metody dostępowe pozwalające na użycie wartości pól
+składowych klasy w wyrażeniach. Ponadto należy zdefiniować metodę pokaz() wyświetlającą na
+standardowym wyjściu wartości wszystkich pól składowych klasy.
