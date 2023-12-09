@@ -1,0 +1,25 @@
+Zaimplementować i przetestować działanie następujących klas: Paczka, Osoba oraz Kurier.
+Klasa Paczka powinna zawierać pola adres typu string oraz wartość typu float. Ponadto w klasie
+zdefiniować następujące elementy:
+• konstruktor domyślny,
+• konstruktor parametryczny,
+• operator <<,
+• metody dostępowe.
+Klasa Osoba powinna zawierać pola imię i nazwisko typu string. Ponadto w klasie zdefiniować następujące elementy:
+• konstruktor domyślny,
+• konstruktor parametryczny,
+• operator ==
+• operator <<,
+• metody dostępowe.
+
+Klasa Kurier jest pochodną klasy Osoba. W klasie Kurier zdefiniować tablicę paczek typu
+Paczka. Ponadto w klasie zdefiniować następujące elementy:
+• konstruktor domyślny,
+• konstruktor parametryczny,
+• konstruktor kopiujący,
+• operator przypisania kopiującego =,
+• operator + – dodaje nową paczkę do tablicy,
+• operator [] – zwraca paczkę o indeksie podanym jako argument; zgłasza wyjątek w
+przypadku przekroczenia zakresu tablicy,
+• funkcję wartość() – zwraca wartość wszystkich paczek kuriera
+• destruktor.
