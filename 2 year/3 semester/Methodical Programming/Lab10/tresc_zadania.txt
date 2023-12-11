@@ -1,0 +1,10 @@
+Zaprojektować i zaimplementować hierarchię klas odwzorowującą roboty przemysłowe, których
+zadaniem jest wykonywanie operacji translacji i rotacji ramion roboczych. Operacje translacji (w lewo, w
+prawo, do góry i do dołu) oraz rotacji powinny być wykonywane o pewną liczbę (bliżej nieokreślonych)
+jednostek. Hierarchia ma odwzorowywać robota o jednym ramieniu roboczym, robota z dwoma
+ramionami oraz specjalizowaną wersję robota zajmującego się podawaniem „materiału” między
+stanowiskami roboczymi. Roboty należy zestawić w linię produkcyjną odwzorowaną w programie przez
+tablicę robotów. W linii produkcyjnej roboty różnych typów mogą być ustawione w dowolny sposób.
+Klasę robotów wyposażyć w polimorficzną metodę praca() wykonującą operacje ramionami
+roboczymi (np. wyświetlanie na standardowym wyjściu operacji wykonywanej przez ramie robota).
+Zaimplementować funkcję wykonaj uruchamiającą sekwencyjnie wszystkie roboty w linii produkcyjnej.
