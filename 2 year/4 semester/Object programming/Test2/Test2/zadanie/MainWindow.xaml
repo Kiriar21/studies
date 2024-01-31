@@ -1,0 +1,17 @@
+﻿<Window x:Class="zadanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="GryDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,98,56,190"/>
+        <Button x:Name="addGame" Content="Dodaj nowa gre" HorizontalAlignment="Left" Margin="529,44,0,0" VerticalAlignment="Top" Click="AddGame"/>
+        <Button x:Name="delGame" Content="Usun Gre" HorizontalAlignment="Left" Margin="415,44,0,0" VerticalAlignment="Top" Click="DeleteGame"/>
+        <Button x:Name="showFinishedGame" Content="Pokaz zakonczone gry" HorizontalAlignment="Left" Margin="69,44,0,0" VerticalAlignment="Top" Click="Filtr"/>
+        <Button x:Name="showAll" Content="Pokaz Wszystkie" HorizontalAlignment="Left" Margin="242,54,0,0" VerticalAlignment="Top" Click="ShowAll"/>
+
+    </Grid>
+</Window>
