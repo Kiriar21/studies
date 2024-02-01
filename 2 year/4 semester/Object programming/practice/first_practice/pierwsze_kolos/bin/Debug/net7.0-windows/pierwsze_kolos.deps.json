@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "pierwsze_kolos/1.0.0": {
+        "runtime": {
+          "pierwsze_kolos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pierwsze_kolos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

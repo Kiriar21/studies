@@ -1,0 +1,29 @@
+﻿<Window x:Class="pierwsze_kolos.ShowUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pierwsze_kolos"
+        mc:Ignorable="d"
+        Title="ShowUserWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="UserFirstName" HorizontalAlignment="Center" Margin="0,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="19"/>
+        <TextBox x:Name="UserLastName" HorizontalAlignment="Center" Margin="0,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <TextBox x:Name="UserID" HorizontalAlignment="Center" Margin="0,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <Button x:Name="showGrades" Content="Wyświetl Oceny" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ShowGrades" Margin="500,64,0,0" Height="40" Width="120"/>
+        <Button x:Name="saveUser" Content="Zapisz zmiany" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Click="SaveUser" RenderTransformOrigin="0.5,0.5" Width="118" Height="38">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-2.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.364"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Imie" HorizontalAlignment="Left" Margin="302,59,0,0" VerticalAlignment="Top" Height="28" Width="33"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="275,101,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.283,0.002"/>
+        <Label Content="Numer Indeksu" HorizontalAlignment="Left" Margin="244,141,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
