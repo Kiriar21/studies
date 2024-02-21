@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <p><label for="name">Imię:</label>
+            <br><input type="text" id="name" value="Jan"></p>
+            <p><label for="surname">Nazwisko:</label>
+            <br><input type="text" id='surname' value="Kowalski"></p>
+            <p><input type="submit" value="Wyślij"></p>
+        </form>
+    </div>   
+
+    <div>
+        <form>
+            <label>Ile masz lat?</label><br><br>    
+                <input type="radio" name='a' value="less18"> Mniej niż 18 lat<br>
+                <input type="radio" name='a' value="between18and30"> 18-30 lat<br>
+                <input type="radio" name='a' value="more30"> Więcej niż 30 lat<br>
+            <p><input type="submit" value="Wyślij"></p>
+        </form>
+    </div>
+    
+    <div>
+        <form>
+            <label>Wybierz swoje zainteresowania</label><br>
+            <input type="checkbox" value='sport' checked>Sport<br>
+            <input type="checkbox" value='moto' >Motoryzacja<br>
+            <input type="checkbox" value='moda' >Moda<br>
+            <input type="checkbox" value='lite' checked>Literatura<br>
+            <input type="checkbox" value='film' >Film<br>
+            <p><input type="submit" value="Wyślij"></p>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <p>
+                <label for="zad4">Wybierz przedmiot:</label>
+                <select id="zad4">
+                    <option value="pp">Podstawy Programowania</option>
+                    <option value="psi">Programowanie Stron Internetowych</option>
+                    <option value="tc">Technika Cyfrowa</option>
+                    <option value="zpi">Zaawansowane programowanie internetowe</option>
+                </select>
+                <input type="submit" value="Prześlij">
+            </p>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <p><label for='pojazd'>Wybierz pojazd</label></p>
+            <select size="4" id="pojazd" multiple>
+                <option>Samochód</option>
+                <option>Motocykl</option>
+                <option>Samolot</option>
+                <option>Statek</option>
+            </select>
+            <p><input type="submit" value="Prześlij"></p>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <p>
+                <textarea rows="10">Programowanie stron internetowych...</textarea>
+            </p>
+            <p>
+                <input type="submit" value="Prześlij">
+            </p>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label for="email">Login:</label>
+            <br><input type="text" id="email" value="Test"><br>
+            <label for="password">Hasło:</label>
+            <br><input type="password" id="password" value="Test">
+
+            <p><input type="submit" value="Zaloguj"></p>
+        </form>
+    </div>
+    
+    <div>
+        <p><input type="color"></p>
+        <p><input type="date"></p>
+        <p><input type="datetime-local"></p>
+        <p><input type="file"></p>
+        <p><input type="hidden"></p>
+        <p><input type="number"></p>
+        <p><input type="range"></p>
+        <p><input type="search"></p>
+        <p><input type="tel"></p>
+        <p><input type="time"></p>
+        <p><input type="url"></p>
+
+    </div>
+    
+    <div>
+        <form>
+            <p>
+                <label for="dtl">Wybierz opcje</label>
+                <input list="dtl" name="dtl">
+                <datalist id="dtl">
+                    <option value='jeden'></option>
+                    <option value='dwa'></option>
+                    <option value='trzy'></option>
+                </datalist>
+            </p>
+        </form>
+    </div>
+
+    <div>
+        <form autocomplete="on">
+            <p><label for="email1">autocomplete</label></p>
+            <p><label for="email">Email:</label></p>
+            <p><input type="email" id="email"></p>
+            <p><label for="password">Hasło:</label></p>
+            <p><input type="password" id="password"></p>
+
+            <p><input type="submit" value="Zaloguj"></p>
+        </form>
+    </div>
+
+
+    <div>
+        <form novalidate>
+                <p><label>novalidate</label></p>
+                <p>
+                    <label for="email2">Email:</label>
+                    <input type="email" id="email2">
+                </p>
+                <p><input type='submit' value="Przeslij"></p>
+        </form>
+    </div>
+
+    <div>
+        <form autocomplete="on">
+            <p><label for="email1">autocomplete</label></p>
+            <p><label for="email">Email:</label></p>
+            <p><input type="email" id="email"></p>
+            <p><label for="password">Hasło:</label></p>
+            <p><input type="password" id="password"></p>
+
+            <p><input type="submit" value="Zaloguj">
+            <input type="reset" value="Wyczyść"></p>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Dane personalne:</legend>
+                    <p><label for="oneName">Imię:</label>
+                    <br><input type="text" id="oneName" value="John"></p>
+                    <p><label for="oneSurname">Nazwisko:</label>
+                    <br><input type="text" id="oneSurname" value="Doe"></p>
+                    <p><label for="onenumber">Numer telefonu:</label>
+                    <br><input type="tel" id="onenumber" value="123-456-789"></p>
+                    <p><label for="onedate">Data urodzenia:</label>
+                    <br><input type="date" id="onedate"></p>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Informacje o studiach:</legend>
+                    <p><label for='index'>Numer indeksu:</label>
+                    <br><input type="number" id='index'></p>
+                    <p>
+                        <label for="wydzial">Wydział:</label>
+                        <select>
+                            <option value="wimii">WiMII</option>
+                            <option value="wz">WZ</option>
+                            <option value="we">WE</option>
+                            <option value="wb">WB</option>
+                        </select>
+                    </p>
+            </fieldset>
+            <p><input type="submit" value="Wyślij"></p>
+        </form>
+    </div>
+</body>
+</html>
