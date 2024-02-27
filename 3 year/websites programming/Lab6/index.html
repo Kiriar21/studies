@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab6</title>
+</head>
+<body>
+    <div>
+        <p id="zad1">Zadanie 1</p>
+        <button id="zad1Button">Click me!!!</button>
+    </div>
+    <div>
+        <form onsubmit="return false">
+            <img src="zdj1.jpg" alt="zad2jpg1" id="zad2" width="100" height="100">
+            <input type="file" id="zad2file">
+            <button id="zad2Button">Zmien zdjecie</button>
+        </form>
+    </div>
+    <div>
+        <h1>Lista z formularzem</h1>
+        <ul id="lista">
+          <li>Element 1</li>
+          <li>Element 2</li>
+          <li>Element 3</li>
+        </ul>
+        <form>
+            <label for="link">Link:</label>
+            <input type="text" id="link" name="link"><br><br>
+            <label for="text">Tekst:</label>
+            <input type="text" id="text" name="text"><br><br>
+            <input type="button" value="Dodaj odnośnik" onclick="dodajOdnosnik()">
+          </form>
+    </div>
+    <div style="width:auto;">
+        <p id="zad4">Dowolny tekst</p>
+        <p id="zad4_2"></p>
+    </div>
+    <div>
+        <nav>
+            <button onclick="zad5(this)"><a href="#">Strona Główna</a></button>
+            <button onclick="zad5(this)"><a href="#">Oferta</a></button>
+            <button onclick="zad5(this)"><a href="#">Kontakt</a></button>
+            <button onclick="zad5(this)"><a href="#">Informacje</a></button>
+        </nav>
+    </div>
+    <script src="lab6.js"></script>
+</body>
+</html>
