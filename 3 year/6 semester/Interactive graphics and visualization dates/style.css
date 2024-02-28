@@ -1,0 +1,40 @@
+*{
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: 100vw;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+header, nav, footer {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+    font-size: 40px;
+}
+footer{
+    font-size: large;
+    font-style: italic;
+}
+main{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+.content, .p-con{
+    width: 60vw;
+    word-wrap: break-word;
+    padding-top: 5vh;
+    font-size: 30px;
+}
