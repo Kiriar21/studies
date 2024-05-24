@@ -1,0 +1,37 @@
+﻿@using Newtonsoft.Json;
+@using CanvasJSExamples.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pie Chart</title>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+    <div id="chartContainer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var dataPoints = @Html.Raw(ViewBag.DataPoints);
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                title: {
+                    text: "Pie Chart"
+                },
+                data: [{
+                    type: "pie",
+                    indexLabel: "{label}: {y}",
+                    dataPoints: dataPoints
+                }]
+            });
+
+            chart.render();
+        };
+    </script>
+</body>
+</html>

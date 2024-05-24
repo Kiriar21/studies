@@ -1,0 +1,72 @@
+﻿@using Newtonsoft.Json;
+@using CanvasJSExamples.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combined Chart</title>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+    <div id="chartContainer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var lineSeries = @Html.Raw(ViewBag.LineSeries);
+            var columnSeries = @Html.Raw(ViewBag.ColumnSeries);
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                title: {
+                    text: "Combined Chart"
+                },
+                axisY: {
+                    title: "Values"
+                },
+                toolTip: {
+                    shared: true
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: toggleDataSeries
+                },
+                data: [
+                    {
+                        type: "line",
+                        name: lineSeries[0].name,
+                        showInLegend: true,
+                        dataPoints: lineSeries[0].dataPoints
+                    },
+                    {
+                        type: "line",
+                        name: lineSeries[1].name,
+                        showInLegend: true,
+                        dataPoints: lineSeries[1].dataPoints
+                    },
+                    {
+                        type: "column",
+                        name: columnSeries[0].name,
+                        showInLegend: true,
+                        dataPoints: columnSeries[0].dataPoints
+                    }
+                ]
+            });
+
+            chart.render();
+
+            function toggleDataSeries(e) {
+                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                } else {
+                    e.dataSeries.visible = true;
+                }
+                chart.render();
+            }
+        };
+    </script>
+</body>
+</html>

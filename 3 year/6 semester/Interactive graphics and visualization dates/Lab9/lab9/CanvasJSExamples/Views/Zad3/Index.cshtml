@@ -1,0 +1,46 @@
+﻿@using Newtonsoft.Json;
+@using CanvasJSExamples.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bar Chart</title>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+    <div id="chartContainer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var series = @Html.Raw(ViewBag.Series);
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                title: {
+                    text: "Bar Chart"
+                },
+                axisY: {
+                    title: "Values"
+                },
+                toolTip: {
+                    content: "{name}: {y}"
+                },
+                data: series.map(function (s) {
+                    return {
+                        type: "column",
+                        name: s.name,
+                        showInLegend: true,
+                        dataPoints: s.dataPoints
+                    };
+                })
+            });
+
+            chart.render();
+        };
+    </script>
+</body>
+</html>
